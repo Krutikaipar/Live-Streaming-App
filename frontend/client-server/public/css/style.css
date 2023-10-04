@@ -1,0 +1,69 @@
+.button.social {
+  margin: .25rem;
+  padding: 0;
+}
+
+.button.social.google {
+  background-color: #3399ff;
+  color: #fefefe;
+}
+
+.button.social.google:hover, .button.social.google:focus {
+  background-color: #0073e6;
+  color: #fefefe;
+}
+
+.button.social.google > .google-icon,
+.button.social.google > .google-text {
+  display: inline-block;
+  vertical-align: middle;
+  padding: .625rem;
+}
+
+.button.social.google > .google-icon {
+  margin: 0 0.5rem 0 0;
+  width: 2.5rem;
+  height: 2.5rem;
+  box-sizing: border-box;
+  background-color: #fefefe;
+  border: 2px solid #3399ff;
+}
+
+.button.social.google:hover >  .google-icon, 
+.button.social.google:focus > .google-icon {
+  border: 2px solid #0073e6;
+}
+
+.button.social.google > .google-text {
+  margin-right: 0.5rem;
+}
+
+.button.social.google > .google-text.no-icon {
+  margin: 0.125rem 0.5rem;
+}
+
+.button.radius.social {
+  border-radius: 0.25rem;
+}
+
+.button-group .button {
+  margin-right: .5rem;
+}
+
+.reveal-overlay {
+  background-color: rgba(10,10,10,.75);
+}
+
+a.dark-link {
+  color: #0a0a0a;
+}
+
+a.dark-link:hover,
+a.dark-link:focus {
+  color: inherit;
+}
+
+.video-container {
+  margin-top: 0.5rem;
+  width: 100%;
+}
