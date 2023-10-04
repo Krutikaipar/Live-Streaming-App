@@ -1,0 +1,12 @@
+{
+  "name": "api-server",
+  "version": "1.0.0",
+  "description": "API Server for live stream app in react",
+  "private": true,
+  "scripts": {
+    "start": "json-server -p 3005 -w data/db.json"
+  },
+  "dependencies": {
+    "json-server": "^0.14.2"
+  }
+}
